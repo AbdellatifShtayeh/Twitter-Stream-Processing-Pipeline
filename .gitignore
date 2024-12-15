@@ -1,0 +1,63 @@
+# Frontend (Node.js, React)
+/Webapp/frontend/node_modules/
+/Webapp/frontend/.pnp
+/Webapp/frontend/.pnp.js
+
+# Testing
+**/coverage/
+
+# Build output
+**/build/
+**/dist/
+**/out/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Backend (Node.js, Express)
+/Webapp/backend/node_modules/
+/Webapp/backend/.env
+/Webapp/backend/*.log
+
+# Scala
+/scala/target/
+/scala/project/target/
+/scala/project/project/
+**/*.class
+
+# IDE files
+**/.idea/
+**/.vscode/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# Kafka
+/kafka/zookeeper-data/
+/kafka/kafka-data/
+/kafka/*.log
+/kafka/*.log.*
+
+# Elasticsearch
+/elasticsearch/data/
+/elasticsearch/logs/
+/elasticsearch/config/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
